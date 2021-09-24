@@ -314,8 +314,8 @@ If no output file is mentioned, then Google Scraper will not write to any output
 
 ```$ python3 -m GoogleScraper -h```
 
-Displays all the options with arguments
- 
+Displays all the options with arguments. 
+
 ```
 GoogleScraper -h
 usage: GoogleScraper [-h] [-m {http,selenium,http-async}] [--sel-browser {firefox,chrome}]
@@ -326,10 +326,10 @@ usage: GoogleScraper [-h] [-m {http,selenium,http-async}] [--sel-browser {firefo
                      [-v {debug,info,warning,warn,error,critical,fatal}] [--print-results {all,summarize}]
                      [--view-config] [-V] [--clean] [--mysql-proxy-db MYSQL_PROXY_DB] [-s SEARCH_ENGINES]
 
-Scrapes Google, Yandex, Bing and many other search engines by forging HTTP requests that imitate browser searches
-or by using real browsers controlled by the Selenium framework. Multithreading support.
+Scrapes Google, Yandex, Bing and many other search engines by forging HTTP requests that imitate browser searches or by using real browsers controlled by the Selenium framework. Multithreading support.
 
-optional arguments:
+Optional arguments:
+
   -h, --help            show this help message and exit
   -m {http,selenium,http-async}, --scrape-method {http,selenium,http-async}
                         The scraping type. There are currently three types: "http", "selenium" and "http-async".
@@ -358,7 +358,7 @@ optional arguments:
                         for selenium mode. Some search engines ignore this setting.
   -p NUM_PAGES_FOR_KEYWORD, --num-pages-for-keyword NUM_PAGES_FOR_KEYWORD
                         The number of pages to request for each keyword. Each page is requested by a unique connection
-                         and if possible by a unique IP (at least in "http" mode).
+                        and if possible by a unique IP (at least in "http" mode).
   -z NUM_WORKERS, --num-workers NUM_WORKERS
                         This arguments sets the number of browser instances for selenium mode or the number of worker
                         threads in http mode.
@@ -378,7 +378,7 @@ optional arguments:
   --simulate            If this flag is set, the scrape job and its estimated length will be printed.
   -v {debug,info,warning,warn,error,critical,fatal}, --verbosity {debug,info,warning,warn,error,critical,fatal}, --loglevel {debug,info,warning,warn,error,critical,fatal}
                         Set the debug level of the application. Use the string representation instead of the numbers.
-  High numbers will output less, low numbers more. CRITICAL = 50, FATAL = CRITICAL, ERROR = 40,
+                        High numbers will output less, low numbers more. CRITICAL = 50, FATAL = CRITICAL, ERROR = 40,
                         WARNING = 30, WARN = WARNING, INFO = 20, DEBUG = 10, NOTSET = 0
   --print-results {all,summarize}
                         Whether to print all results ("all"), or only print a summary ("summarize")
@@ -397,27 +397,3 @@ optional arguments:
 GoogleScraper 0.2.4. This program might infringe the TOS of the search engines. Please use it on your own risk. (c) by
 Nikolai Tschacher, 2012-2018. incolumitas.com
 ``` 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
