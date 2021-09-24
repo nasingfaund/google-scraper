@@ -8,7 +8,7 @@ But, in a technical sense, what is web scraping? Web scraping involves using a w
 
 
 ## Table of Contents 
-- [Google Scraper eatures](#google-scraper-features)
+- [Google Scraper features](#google-scraper-features)
 - [What kind of data can you get using Google Scraper?](#what-kind-of-data-can-you-get-using-google-scraper)
 - [Top use cases](#top-use-cases)
 - [How does Google Scraper bypass the restrictions against scraping?](how-does-google-scraper-bypass-the-restrictions-against-scraping)
